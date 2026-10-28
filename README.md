@@ -11,7 +11,6 @@ An English translation of the Japanese GameCube game, by **Bojangles**, made wit
 - Attraction instructions, help text, item names/descriptions and control prompts.
 - BOMPAD menus, mail, attraction information and manga title lists.
 - English text fitting, word wrapping and alignment adjustments, while retaining original colors, highlights and control icons where supported.
-- Custom “Translated by Bojangles” opening splash and a creator message about AI during the Hudson logo.
 - Original Japanese voices, music and sound effects.
 
 ## Download and install
@@ -22,7 +21,7 @@ The patched ISO is exactly **1,459,978,240 bytes**, the same size as the origina
 
 ## Remaining limitations
 
-Manga artwork remains Japanese in the playable patch; English manga previews are not included. Japanese speech and movies are not fully subtitled, and text baked into some graphics/movies remains Japanese. Some text layouts and event paths still need playthrough testing. See [KNOWN_ISSUES.md](KNOWN_ISSUES.md).
+Manga artwork remains Japanese in the playable patch; Japanese speech and movies are not fully subtitled, and text baked into some graphics/movies remains Japanese. Some text layouts and event paths still need playthrough testing. See [KNOWN_ISSUES.md](KNOWN_ISSUES.md).
 
 ## Report a problem
 
