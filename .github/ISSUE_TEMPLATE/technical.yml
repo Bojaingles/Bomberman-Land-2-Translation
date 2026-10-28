@@ -1,0 +1,33 @@
+name: "Technical bug"
+description: "Report crashes, freezes, broken events or installation errors."
+title: "[Technical] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Exact patch version
+      placeholder: v0.1.0-beta.1 (not latest)
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Zone, location and NPC or menu
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and reproduction steps
+      description: "Include reproduction steps, expected/actual behavior and any exact error; for patching issues include checksums. Never attach a game ISO or extracted game archives."
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Emulator or hardware details
+      description: "Dolphin version and platform, or console and loader/version. Does it happen after a full restart using a normal memory-card save?"
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots, clips or relevant logs
